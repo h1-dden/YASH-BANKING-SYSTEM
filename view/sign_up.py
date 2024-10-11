@@ -1,5 +1,5 @@
 
-from validation import user_auth
+from validation import user_input_validation
 from view import database_insertion
 
 def take_input():
@@ -19,7 +19,7 @@ def take_input():
 
     #validate user detils
     if user_password == input("Re-enter your password :"):
-        validation = user_auth.user_validation(user_name,user_age,
+        validation = user_input_validation.user_validation(user_name,user_age,
                                                user_email,user_number,
                                                user_password)
         #validation successful then insert into database

@@ -3,11 +3,14 @@ from constants import const
 from services import account_service
 from models import database
 
+account_number = 0
+
 def user_logon_routing():
     """
     Allows the user to login/signup or exit based on given choice.
     """
-    user_login_choice = int(input("Please enter 0 to sign up ,1 to log On or 5 to exit \n"))
+    user_login_choice = int(input("Please enter 0 to sign up ,1 to log On ,3 for banking or 5 to exit \n"))
+    global acn_number 
     match(user_login_choice):
         
         case const.SIGNUP:
@@ -23,6 +26,13 @@ def user_logon_routing():
             if account_number != None:
                 banking_menu(account_number)
         
+        case const.BANKING:
+            try:
+                banking_menu(acn_number) 
+            except Exception:
+                print("Please Login to continue")
+                return True
+                       
         case const.EXIT:
             print("Thank You for using our online banking services.")
             return False
@@ -44,7 +54,6 @@ def banking_menu(account_number):
     
     while(True):
         user_choice = int(input("1-Deposit, 2-Withdraw, 3-Check Balance, 4-Transfer Money, 5-Exit \n"))
-        
         match(user_choice):
 
             case const.DEPOSIT : 
@@ -61,6 +70,7 @@ def banking_menu(account_number):
 
             case const.EXIT :
                 print("Signing Out from Accout")
+                login.login_status = False
                 break
             
             case _ : 

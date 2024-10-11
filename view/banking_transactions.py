@@ -5,6 +5,8 @@ from models import database
 from validation import transaction_validation
 from services import account_service
 from view import update_transaction_csv
+from decorators import user_auth
+from view import login
 import datetime
 
 def account_update(account_number):
@@ -13,6 +15,7 @@ def account_update(account_number):
         #Display balance after deposit
         account_service.check_balance(account_number)
 
+@user_auth.login_status_check
 def deposit_money(account_number):
     """
     Deposits specific amount into user account.
@@ -34,6 +37,7 @@ def deposit_money(account_number):
     else:
         raise Exception("Transaction amount out of bounds")
 
+@user_auth.login_status_check
 def withdraw_money(account_number):
     """
     Withdraws specific amount from user account.
@@ -55,7 +59,7 @@ def withdraw_money(account_number):
     else:
         print("Transaction Cancelled")
 
-
+@user_auth.login_status_check
 def transfer_money(account_number):
     reciever_account=int(input("Please Enter the reciever's account\n"))
 

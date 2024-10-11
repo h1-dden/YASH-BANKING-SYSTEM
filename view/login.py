@@ -1,6 +1,8 @@
 
 from models import database
 
+login_status = False
+
 def account_validation(account,password,user_database):
     """
     Checks if account is present in database.
@@ -13,6 +15,8 @@ def account_validation(account,password,user_database):
     """
     try:
         if user_database[account]["password"] == password:
+            global login_status
+            login_status = True
             return True
         return False
     
