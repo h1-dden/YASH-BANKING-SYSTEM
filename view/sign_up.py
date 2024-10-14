@@ -1,6 +1,6 @@
 
 from validation import user_input_validation
-from view import database_insertion
+from view import user_account_creation
 
 def take_input():
     """
@@ -13,7 +13,7 @@ def take_input():
 
     user_name = input("Please enter your full name :")
     user_email = input("Please enter your email_id :")
-    user_number = int(input("Please enter your phone number :"))
+    user_number = input("Please enter your phone number :")
     user_age = int(input("Please enter your age :"))
     user_password = input("Please enter a valid password :")
 
@@ -24,10 +24,11 @@ def take_input():
                                                user_password)
         #validation successful then insert into database
         if validation == True:
-            account_number = database_insertion.create_user_id(user_name,user_age,
+            user_details=user_account_creation.user_details(user_name,user_age,
                                                                user_email,user_number,
                                                                user_password)
-            return account_number
+            return user_details.create_user_id()
+
     else:
         raise Exception("Password match error")
 
