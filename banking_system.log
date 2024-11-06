@@ -1,0 +1,110 @@
+2024-11-03 23:29:54,060 - INFO - Initialized BankOperations for account: 100002
+2024-11-03 23:29:57,856 - INFO - Deposit successful: 1000 into account: 100002
+2024-11-03 23:29:57,874 - INFO - Updated transaction history: CREDIT of amount 1000 for account: 100002
+2024-11-03 23:29:59,656 - INFO - Initialized BankOperations for account: 100002
+2024-11-03 23:30:03,202 - INFO - Updated transaction history: DEBIT of amount 23 for account: 100002
+2024-11-03 23:30:03,202 - INFO - Withdrawal successful: 23 from account: 100002
+2024-11-03 23:30:08,448 - INFO - Initialized BankOperations for account: 100002
+2024-11-03 23:30:10,210 - INFO - Updated transaction history: DEBIT of amount 2000 for account: 100002
+2024-11-03 23:30:10,210 - INFO - Withdrawal successful: 2000 from account: 100002
+2024-11-03 23:30:14,281 - INFO - Initialized BankOperations for account: 100002
+2024-11-03 23:30:45,313 - INFO - Updated transaction history: DEBIT of amount 2000 for account: 100002
+2024-11-03 23:30:45,313 - INFO - Updated transaction history: CREDIT of amount 2000 for account: 100002
+2024-11-03 23:30:45,313 - INFO - Transfer successful: 2000 from account: 100002 to account: 100003
+2024-11-03 23:57:44,318 - INFO - Initialized BankOperations for account: 100002
+2024-11-03 23:57:48,628 - ERROR - Deposit failed: Transaction amount out of bounds for account: 100002
+2024-11-06 10:40:41,290 - INFO - Initialized BankOperations for account: 100005
+2024-11-06 10:40:43,467 - INFO - Deposit successful: 1200 into account: 100005
+2024-11-06 10:40:43,483 - INFO - Updated transaction history: CREDIT of amount 1200 for account: 100005
+2024-11-06 10:40:44,968 - INFO - Initialized BankOperations for account: 100005
+2024-11-06 10:40:47,146 - WARNING - Withdrawal cancelled: Insufficient funds or invalid amount for account: 100005
+2024-11-06 10:40:55,181 - INFO - Initialized BankOperations for account: 100005
+2024-11-06 10:40:56,427 - INFO - Updated transaction history: DEBIT of amount 120 for account: 100005
+2024-11-06 10:40:56,427 - INFO - Withdrawal successful: 120 from account: 100005
+2024-11-06 10:41:05,869 - INFO - Initialized BankOperations for account: 100005
+2024-11-06 10:41:08,464 - ERROR - Transfer failed: Invalid receiver account: 10002
+2024-11-06 10:53:16,090 - INFO - Initialized BankOperations for account: 100005
+2024-11-06 10:53:31,329 - INFO - Updated transaction history: DEBIT of amount 120 for account: 100005
+2024-11-06 10:53:31,329 - INFO - Updated transaction history: CREDIT of amount 120 for account: 100005
+2024-11-06 10:53:31,329 - INFO - Transfer successful: 120 from account: 100005 to account: 100002
+2024-11-06 10:53:40,661 - INFO - Initialized BankOperations for account: 100005
+2024-11-06 10:53:41,923 - WARNING - Withdrawal cancelled: Insufficient funds or invalid amount for account: 100005
+2024-11-06 10:53:43,343 - INFO - Initialized BankOperations for account: 100005
+2024-11-06 10:53:46,157 - ERROR - Deposit failed: Transaction amount out of bounds for account: 100005
+2024-11-06 10:53:54,773 - INFO - Initialized BankOperations for account: 100005
+2024-11-06 10:53:56,311 - ERROR - Deposit failed: Transaction amount out of bounds for account: 100005
+2024-11-06 10:55:13,296 - INFO - Initialized BankOperations for account: 100005
+2024-11-06 10:55:14,884 - ERROR - Deposit failed: Transaction amount out of bounds for account: 100005
+2024-11-06 10:55:45,613 - INFO - Initialized BankOperations for account: 100005
+2024-11-06 10:55:47,651 - ERROR - Deposit failed: Transaction amount out of bounds for account: 100005
+2024-11-06 10:55:50,678 - INFO - Initialized BankOperations for account: 100005
+2024-11-06 10:55:51,491 - ERROR - Deposit failed: Transaction amount out of bounds for account: 100005
+2024-11-06 10:55:53,642 - INFO - Initialized BankOperations for account: 100005
+2024-11-06 10:55:55,282 - WARNING - Withdrawal cancelled: Insufficient funds or invalid amount for account: 100005
+2024-11-06 10:56:00,693 - INFO - Initialized BankOperations for account: 100005
+2024-11-06 10:56:03,861 - ERROR - Transfer failed: Invalid receiver account: 1000000
+2024-11-06 10:59:11,881 - INFO - Initialized BankOperations for account: 100004
+2024-11-06 10:59:13,568 - INFO - Deposit successful: 10000 into account: 100004
+2024-11-06 10:59:13,591 - INFO - Updated transaction history: CREDIT of amount 10000 for account: 100004
+2024-11-06 10:59:18,064 - INFO - Initialized BankOperations for account: 100004
+2024-11-06 10:59:19,757 - ERROR - Transfer failed: Invalid receiver account: 102
+2024-11-06 10:59:23,778 - INFO - Initialized BankOperations for account: 100004
+2024-11-06 10:59:25,746 - ERROR - Transfer failed: Invalid receiver account: 102
+2024-11-06 10:59:27,735 - INFO - Initialized BankOperations for account: 100004
+2024-11-06 10:59:29,656 - ERROR - Transfer failed: Invalid receiver account: 123456789
+2024-11-06 11:19:26,577 - INFO - Initialized BankOperations for account: 100004
+2024-11-06 11:19:33,998 - INFO - Updated transaction history: DEBIT of amount 1234 for account: 100004
+2024-11-06 11:19:34,002 - INFO - Updated transaction history: CREDIT of amount 1234 for account: 100004
+2024-11-06 11:19:34,002 - INFO - Transfer successful: 1234 from account: 100004 to account: 100005
+2024-11-06 11:19:36,304 - INFO - Initialized BankOperations for account: 100004
+2024-11-06 11:19:38,343 - ERROR - Transfer failed: Invalid receiver account: 102
+2024-11-06 11:19:40,855 - INFO - Initialized BankOperations for account: 100004
+2024-11-06 11:19:42,278 - ERROR - Transfer failed: Invalid receiver account: 2345
+2024-11-06 11:19:45,197 - INFO - Initialized BankOperations for account: 100004
+2024-11-06 11:19:46,894 - ERROR - Transfer failed: Invalid receiver account: 1234567
+2024-11-06 11:19:49,578 - INFO - Initialized BankOperations for account: 100004
+2024-11-06 11:19:51,045 - ERROR - Transfer failed: Invalid receiver account: 12323
+2024-11-06 13:50:35,464 - INFO - Initialized BankOperations for account: 100006
+2024-11-06 13:50:38,151 - INFO - Deposit successful: 120 into account: 100006
+2024-11-06 13:50:38,155 - INFO - Updated transaction history: CREDIT of amount 120 for account: 100006
+2024-11-06 13:50:50,982 - INFO - Initialized BankOperations for account: 100006
+2024-11-06 13:50:53,700 - WARNING - Withdrawal cancelled: Insufficient funds or invalid amount for account: 100006
+2024-11-06 13:51:01,443 - INFO - Initialized BankOperations for account: 100006
+2024-11-06 13:51:04,638 - INFO - Updated transaction history: DEBIT of amount 100 for account: 100006
+2024-11-06 13:51:04,638 - INFO - Withdrawal successful: 100 from account: 100006
+2024-11-06 13:54:06,030 - INFO - Initialized BankOperations for account: 100006
+2024-11-06 13:54:16,180 - INFO - Updated transaction history: DEBIT of amount 200 for account: 100006
+2024-11-06 13:54:16,186 - INFO - Updated transaction history: CREDIT of amount 200 for account: 100006
+2024-11-06 13:54:16,186 - INFO - Transfer successful: 200 from account: 100006 to account: 100002
+2024-11-06 13:54:37,101 - INFO - Initialized BankOperations for account: 100006
+2024-11-06 13:54:39,664 - INFO - Deposit successful: 10000 into account: 100006
+2024-11-06 13:54:39,668 - INFO - Updated transaction history: CREDIT of amount 10000 for account: 100006
+2024-11-06 14:04:10,201 - INFO - Initialized BankOperations for account: 100002
+2024-11-06 14:04:19,288 - WARNING - Transfer cancelled: Insufficient funds for account: 100002
+2024-11-06 14:04:28,063 - INFO - Initialized BankOperations for account: 100002
+2024-11-06 14:04:31,832 - WARNING - Withdrawal cancelled: Insufficient funds or invalid amount for account: 100002
+2024-11-06 14:04:34,389 - INFO - Initialized BankOperations for account: 100002
+2024-11-06 14:04:36,657 - INFO - Updated transaction history: DEBIT of amount 2000 for account: 100002
+2024-11-06 14:04:36,657 - INFO - Withdrawal successful: 2000 from account: 100002
+2024-11-06 14:04:40,866 - INFO - Initialized BankOperations for account: 100002
+2024-11-06 14:04:43,501 - INFO - Deposit successful: 1000 into account: 100002
+2024-11-06 14:04:43,511 - INFO - Updated transaction history: CREDIT of amount 1000 for account: 100002
+2024-11-06 14:06:51,100 - INFO - Initialized BankOperations for account: 100002
+2024-11-06 14:06:53,734 - INFO - Deposit successful: 200 into account: 100002
+2024-11-06 14:06:53,743 - INFO - Updated transaction history: CREDIT of amount 200 for account: 100002
+2024-11-06 14:17:11,222 - INFO - Initialized BankOperations for account: 100002
+2024-11-06 14:17:20,506 - INFO - Deposit successful: 200 into account: 100002
+2024-11-06 14:17:20,517 - INFO - Updated transaction history: CREDIT of amount 200 for account: 100002
+2024-11-06 14:17:28,340 - INFO - Initialized BankOperations for account: 100002
+2024-11-06 14:17:30,707 - INFO - Updated transaction history: DEBIT of amount 100 for account: 100002
+2024-11-06 14:17:30,707 - INFO - Withdrawal successful: 100 from account: 100002
+2024-11-06 14:17:50,935 - INFO - Initialized BankOperations for account: 100002
+2024-11-06 14:17:57,697 - INFO - Updated transaction history: DEBIT of amount 200 for account: 100002
+2024-11-06 14:17:57,697 - INFO - Updated transaction history: CREDIT of amount 200 for account: 100002
+2024-11-06 14:17:57,697 - INFO - Transfer successful: 200 from account: 100002 to account: 100006
+2024-11-06 14:19:43,951 - INFO - Initialized BankOperations for account: 100002
+2024-11-06 14:19:47,141 - INFO - Updated transaction history: DEBIT of amount 100 for account: 100002
+2024-11-06 14:19:47,141 - INFO - Withdrawal successful: 100 from account: 100002
+2024-11-06 14:22:02,385 - INFO - Initialized BankOperations for account: 100002
+2024-11-06 14:22:04,275 - INFO - Deposit successful: 100 into account: 100002
+2024-11-06 14:22:04,287 - INFO - Updated transaction history: CREDIT of amount 100 for account: 100002
