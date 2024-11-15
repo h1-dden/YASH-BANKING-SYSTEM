@@ -16,10 +16,20 @@ def user_signup():
     print(Fore.YELLOW + "Enter the following details to create a new account")
 
     user_name = input(Fore.BLUE + "Please enter your full name: ")
+    if not user_input_validation.name_check(user_name):
+        return
     user_email = input(Fore.BLUE + "Please enter your email_id: ")
+    if not user_input_validation.email_check(user_email):
+        return
     user_number = input(Fore.BLUE + "Please enter your phone number: ")
+    if not user_input_validation.number_check(user_number):
+        return
     user_age = int(input(Fore.BLUE + "Please enter your age: "))
+    if not user_input_validation.age_check(user_age):
+        return
     user_password = input(Fore.BLUE + "Please enter a valid password: ")
+    if not user_input_validation.password_check(user_password):
+        return
 
     # Validate user details
     if user_password == input(Fore.BLUE + "Re-enter your password: "):
