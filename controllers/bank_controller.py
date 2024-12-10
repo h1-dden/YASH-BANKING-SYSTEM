@@ -1,7 +1,6 @@
 from view import login, sign_up, banking_transactions
 from constants import const
 from services import account_service
-from models import database
 from decorators import user_auth
 from colorama import init, Fore, Style
 
