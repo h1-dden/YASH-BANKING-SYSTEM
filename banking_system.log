@@ -124,3 +124,16 @@
 2024-11-15 11:48:13,327 - INFO - Updated transaction history: DEBIT of amount 2300 for account: 100002
 2024-11-15 11:48:13,329 - INFO - Updated transaction history: CREDIT of amount 2300 for account: 100002
 2024-11-15 11:48:13,329 - INFO - Transfer successful: 2300 from account: 100002 to account: 100004
+2024-12-06 12:17:59,827 - INFO - Initialized BankOperations for account: 100004
+2024-12-06 12:18:09,260 - ERROR - Deposit failed: Transaction amount out of bounds for account: 100004
+2024-12-06 12:18:12,537 - INFO - Initialized BankOperations for account: 100004
+2024-12-06 12:18:15,014 - INFO - Deposit successful: 2000 into account: 100004
+2024-12-06 12:18:15,047 - INFO - Updated transaction history: CREDIT of amount 2000 for account: 100004
+2024-12-06 12:18:20,473 - INFO - Initialized BankOperations for account: 100004
+2024-12-06 12:18:23,123 - WARNING - Withdrawal cancelled: Insufficient funds or invalid amount for account: 100004
+2024-12-06 12:18:32,123 - INFO - Initialized BankOperations for account: 100004
+2024-12-06 12:18:51,565 - INFO - Updated transaction history: DEBIT of amount 4000 for account: 100004
+2024-12-06 12:18:51,578 - INFO - Updated transaction history: CREDIT of amount 4000 for account: 100004
+2024-12-06 12:18:51,578 - INFO - Transfer successful: 4000 from account: 100004 to account: 100002
+2024-12-06 12:19:02,250 - INFO - Initialized BankOperations for account: 100004
+2024-12-06 12:19:05,822 - WARNING - Withdrawal cancelled: Insufficient funds or invalid amount for account: 100004

@@ -1,6 +1,9 @@
 
 import pymysql
-from constants import const
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 con = None
 cursor = None
@@ -14,12 +17,13 @@ class DbService:
         """Initializes connection to database"""
 
         global con,cursor
-        con = pymysql.connect(host=const.HOST ,user=const.USER ,password=const.PASSWORD , db=const.DATABASE)
+        con = pymysql.connect(host=os.getenv("DB_HOST") ,user=os.getenv("DB_USER") ,
+                              password=os.getenv("DB_PASSWORD") , db=os.getenv("DB_SCHEMA"))
         cursor = con.cursor()
     
     def cleanup(self):
 
-        """Closees connection to the database"""
+        """Closes connection to the database"""
         
         cursor.close()
         con.close()
